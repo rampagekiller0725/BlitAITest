@@ -1,0 +1,13 @@
+.footer-bar {
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-style: solid;
+  border-color: #eaecf0;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+}

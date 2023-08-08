@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter";
+  overflow-x: hidden;
+}
+
+/* CSS FOR GRADIENT TEXT */
+.gradient_bg {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.gradient_bg.black {
+  background: linear-gradient(45deg, #101828 0%, #475467 100%);
+}
+
+.gradient_bg.blue {
+  background: linear-gradient(45deg, #065986 0%, #0086c9 100%);
+}
+
+.gradient_bg.red {
+  background: linear-gradient(45deg, #a11043 0%, #e31b54 100%);
+}
+
+.gradient_bg.purple {
+  background: linear-gradient(45deg, #821890 0%, #ba24d5 100%);
+}
+
+.gradient_bg.brown {
+  background: linear-gradient(45deg, #854a0e 0%, #ca8504 100%);
+}
+
+.gradient_bg.green {
+  background: linear-gradient(45deg, #326212 0%, #4ca30d 100%);
+}
+
+.gradient_bg.gray {
+  background: linear-gradient(45deg, #293056 0%, #3e4784 100%);
+}
+
+/* CSS FOR PHONE NUMBER INPUT */
+.PhoneInputCountry {
+  margin-right: 1em !important;
+}
+
+.PhoneInputCountry .PhoneInputCountryIconUnicode {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Inter";
+  color: #101828;
+}
+
+.PhoneInputCountry .PhoneInputCountrySelectArrow {
+  width: 0.46em;
+  height: 0.46em;
+  border-bottom-width: 1.6px;
+  border-right-width: 1.6px;
+  margin-left: 0.6em;
+}
+
+.PhoneInputInput {
+  border: none;
+  border-radius: 0.5rem;
+  color: #475467;
+}
+
+.PhoneInputInput::placeholder {
+  color: #667085;
+}
+
+.PhoneInputInput:focus {
+  --tw-ring-color: transparent;
+}
+
+/* CSS FOR MUI TABS */
+.tabs {
+  background-color: transparent;
+}
+
+.tabs .MuiTabs-scroller {
+  background-color: transparent;
+}
+
+.tabs .MuiTabs-indicator {
+  background: #7f56d9;
+}
+
+.tabs .MuiTabs-scroller .MuiTabs-flexContainer {
+  background-color: transparent;
+}
+
+.tabs .MuiTabs-scroller .MuiTabs-flexContainer .MuiButtonBase-root {
+  text-transform: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.tabs
+  .MuiTabs-scroller
+  .MuiTabs-flexContainer
+  .MuiButtonBase-root.Mui-selected {
+  color: #7f56d9;
+}
+
+.transition-max-height {
+  transition: max-height 0.25s ease-out;
+}
+
+.animated-text.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.animated-text.fade-out {
+  animation: fadeOut 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

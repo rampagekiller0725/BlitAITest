@@ -1,0 +1,12 @@
+<v-tabs v-model="activeTab" centered grow :class="$style.tabsContainer">
+  <v-tab><span style="text-transform: none">Results</span></v-tab>
+  <v-tab><span style="text-transform: none">Options</span></v-tab>
+  <v-tabs-items v-model="activeTab" touchless :class="$style.tabItems">
+    <v-tab-item :class="$style.tabItem">
+      <datasets />
+    </v-tab-item>
+    <v-tab-item :class="$style.tabItem">
+      <global-settings />
+    </v-tab-item>
+  </v-tabs-items>
+</v-tabs>

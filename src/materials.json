@@ -1,0 +1,864 @@
+{
+  "PEC": {
+    "color": "#4cdfaf"
+  },
+  "Vacuum": {
+    "color": "#c099f1",
+    "epsilon": 1,
+    "mu": 1
+  },
+  "Air": {
+    "color": "#cd18fc",
+    "epsilon": 1.00059,
+    "mu": 1
+  },
+  "Alumina (96%)": {
+    "color": "#9fb649",
+    "epsilon": 9.4,
+    "mu": 1
+  },
+  "Alumina (99.5%)": {
+    "color": "#438493",
+    "epsilon": 9.9,
+    "mu": 1
+  },
+  "Aluminum Nitride": {
+    "color": "#2af3bd",
+    "epsilon": 8.6,
+    "mu": 1
+  },
+  "Aluminum": {
+    "color": "#a6fe81",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 35600000
+  },
+  "Arlon AD 1000": {
+    "color": "#02c0fa",
+    "epsilon": 10.2,
+    "mu": 1
+  },
+  "Arlon AD 250C": {
+    "color": "#7a2677",
+    "epsilon": 2.5,
+    "mu": 1
+  },
+  "Arlon AD 255C": {
+    "color": "#4e22af",
+    "epsilon": 2.6,
+    "mu": 1
+  },
+  "Arlon AD 260A": {
+    "color": "#3993a6",
+    "epsilon": 2.6,
+    "mu": 1
+  },
+  "Arlon AD 300C": {
+    "color": "#9e2ca7",
+    "epsilon": 2.98,
+    "mu": 1
+  },
+  "Arlon AD 300D": {
+    "color": "#956518",
+    "epsilon": 2.98,
+    "mu": 1
+  },
+  "Arlon AD 320A": {
+    "color": "#f22441",
+    "epsilon": 3.2,
+    "mu": 1
+  },
+  "Arlon AD 350A": {
+    "color": "#2c876d",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Arlon AD 410": {
+    "color": "#8efb2a",
+    "epsilon": 4.1,
+    "mu": 1
+  },
+  "Arlon AD 430": {
+    "color": "#3fa670",
+    "epsilon": 4.3,
+    "mu": 1
+  },
+  "Arlon AD 450": {
+    "color": "#837b5a",
+    "epsilon": 4.5,
+    "mu": 1
+  },
+  "Arlon AD 600": {
+    "color": "#d13471",
+    "epsilon": 6.15,
+    "mu": 1
+  },
+  "Arlon CLTE": {
+    "color": "#20363c",
+    "epsilon": 2.98,
+    "mu": 1
+  },
+  "Arlon CLTE-AT": {
+    "color": "#2b3106",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Arlon CLTE-XT": {
+    "color": "#53f610",
+    "epsilon": 2.94,
+    "mu": 1
+  },
+  "Arlon CuClad 217": {
+    "color": "#d38272",
+    "epsilon": 2.2,
+    "mu": 1
+  },
+  "Arlon CuClad 233": {
+    "color": "#9bd51e",
+    "epsilon": 2.33,
+    "mu": 1
+  },
+  "Arlon CuClad 250": {
+    "color": "#13c68b",
+    "epsilon": 2.5,
+    "mu": 1
+  },
+  "Arlon DiClad 527": {
+    "color": "#f56155",
+    "epsilon": 2.5,
+    "mu": 1
+  },
+  "Arlon DiClad 870": {
+    "color": "#a83e50",
+    "epsilon": 2.33,
+    "mu": 1
+  },
+  "Arlon DiClad 880": {
+    "color": "#fd9bc8",
+    "epsilon": 2.2,
+    "mu": 1
+  },
+  "Arlon IsoClad 917": {
+    "color": "#40e2a1",
+    "epsilon": 2.17,
+    "mu": 1
+  },
+  "Arlon IsoClad 933": {
+    "color": "#847fb9",
+    "epsilon": 2.33,
+    "mu": 1
+  },
+  "Beryllia (99.5%)": {
+    "color": "#b49cd2",
+    "epsilon": 6.5,
+    "mu": 1
+  },
+  "Brass (65%)": {
+    "color": "#06a577",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 15900000
+  },
+  "Brass (91%)": {
+    "color": "#ecd1cd",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 27400000
+  },
+  "Chromium": {
+    "color": "#15e285",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 8000000
+  },
+  "Copper (annealed)": {
+    "color": "#ef01fa",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 58000000
+  },
+  "Copper (pure)": {
+    "color": "#9e1d62",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 59600000
+  },
+  "Diamond": {
+    "color": "#40cda0",
+    "epsilon": 5.68,
+    "mu": 1
+  },
+  "Epoxy resin": {
+    "color": "#600363",
+    "epsilon": 4,
+    "mu": 1
+  },
+  "FR-4": {
+    "color": "#69853f",
+    "epsilon": 4.3,
+    "mu": 1
+  },
+  "G-10": {
+    "color": "#c208e3",
+    "epsilon": 4.8,
+    "mu": 1
+  },
+  "Gallium Arsenide": {
+    "color": "#84b348",
+    "epsilon": 12.94,
+    "mu": 1
+  },
+  "Glycerin": {
+    "color": "#01168a",
+    "epsilon": 50,
+    "mu": 1
+  },
+  "Gold": {
+    "color": "#b1fedb",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 45610000
+  },
+  "Graphite": {
+    "color": "#56c904",
+    "epsilon": 12,
+    "mu": 1,
+    "kappa": 100000
+  },
+  "Iron": {
+    "color": "#48aab2",
+    "mu": 1,
+    "kappa": 10400000,
+    "epsilon": 1
+  },
+  "Lead glass": {
+    "color": "#a11854",
+    "epsilon": 6,
+    "mu": 1,
+    "kappa": 1e-12
+  },
+  "Lead": {
+    "color": "#9bc493",
+    "epsilon": 1,
+    "mu": 0.999983,
+    "kappa": 4800000
+  },
+  "Loamy Soil (dry)": {
+    "color": "#f71952",
+    "epsilon": 2.44,
+    "mu": 1
+  },
+  "Loamy Soil (wet)": {
+    "color": "#9ca9d3",
+    "epsilon": 13.8,
+    "mu": 1
+  },
+  "Magnesium": {
+    "color": "#3ffaa3",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 22700000
+  },
+  "Mercury": {
+    "color": "#f3fd19",
+    "epsilon": 1,
+    "mu": 0.99997,
+    "kappa": 1040000
+  },
+  "Mica (glass bonded)": {
+    "color": "#a45c22",
+    "epsilon": 6.7,
+    "mu": 1,
+    "kappa": 1e-12
+  },
+  "Mica (muscovite)": {
+    "color": "#2671c0",
+    "epsilon": 7.9,
+    "mu": 1,
+    "kappa": 1e-15
+  },
+  "Mica": {
+    "color": "#3c9ef6",
+    "epsilon": 6,
+    "mu": 1,
+    "kappa": 1e-14
+  },
+  "Molybdenum": {
+    "color": "#d2b785",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 18200000
+  },
+  "Nickel": {
+    "color": "#d6b320",
+    "epsilon": 1,
+    "mu": 600,
+    "kappa": 14400000
+  },
+  "Oil": {
+    "color": "#e63fc8",
+    "epsilon": 2.33,
+    "mu": 1
+  },
+  "Paper (oil impregnated)": {
+    "color": "#616436",
+    "epsilon": 3.87,
+    "mu": 1
+  },
+  "Paper": {
+    "color": "#ecb43f",
+    "epsilon": 2.31,
+    "mu": 1
+  },
+  "Phosphor bronze": {
+    "color": "#f670aa",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 8700000
+  },
+  "Platinum": {
+    "color": "#a1484c",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 9520000
+  },
+  "Polycarbonate": {
+    "color": "#9f2212",
+    "epsilon": 2.9,
+    "mu": 1
+  },
+  "Polyimide": {
+    "color": "#74190e",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Porcelain": {
+    "color": "#a54ebc",
+    "epsilon": 6,
+    "mu": 1,
+    "kappa": 1e-15
+  },
+  "PTFE": {
+    "color": "#122d69",
+    "epsilon": 2.1,
+    "mu": 1
+  },
+  "Quartz (Fused)": {
+    "color": "#dfc700",
+    "epsilon": 3.75,
+    "mu": 1
+  },
+  "Rogers RO3003": {
+    "color": "#598a2f",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Rogers RO3006": {
+    "color": "#89dcc1",
+    "epsilon": 6.5,
+    "mu": 1
+  },
+  "Rogers RO3010": {
+    "color": "#5479a1",
+    "epsilon": 11.2,
+    "mu": 1
+  },
+  "Rogers RO3035": {
+    "color": "#1fd4f2",
+    "epsilon": 3.6,
+    "mu": 1
+  },
+  "Rogers RO3203": {
+    "color": "#4bd1ec",
+    "epsilon": 3.02,
+    "mu": 1
+  },
+  "Rogers RO3206": {
+    "color": "#e13f40",
+    "epsilon": 6.6,
+    "mu": 1
+  },
+  "Rogers RO3210": {
+    "color": "#14a3b6",
+    "epsilon": 10.8,
+    "mu": 1
+  },
+  "Rogers RO4003C": {
+    "color": "#cf31ea",
+    "epsilon": 3.55,
+    "mu": 1
+  },
+  "Rogers RO4003C LoPro": {
+    "color": "#394c93",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Rogers RO4350B": {
+    "color": "#61ceb6",
+    "epsilon": 3.66,
+    "mu": 1
+  },
+  "Rogers RO4350B LoPro": {
+    "color": "#eb211f",
+    "epsilon": 3.55,
+    "mu": 1
+  },
+  "Rogers RO4360G2": {
+    "color": "#80672d",
+    "epsilon": 6.4,
+    "mu": 1
+  },
+  "Rogers RO4450B": {
+    "color": "#934dd2",
+    "epsilon": 3.7,
+    "mu": 1
+  },
+  "Rogers RO4450F": {
+    "color": "#3d23d4",
+    "epsilon": 3.7,
+    "mu": 1
+  },
+  "Rogers RO4533": {
+    "color": "#0edd0f",
+    "epsilon": 3.45,
+    "mu": 1
+  },
+  "Rogers RO4534": {
+    "color": "#a82b23",
+    "epsilon": 3.55,
+    "mu": 1
+  },
+  "Rogers RO4535": {
+    "color": "#b0bb50",
+    "epsilon": 3.66,
+    "mu": 1
+  },
+  "Rogers RO4725JXR": {
+    "color": "#7b2460",
+    "epsilon": 2.64,
+    "mu": 1
+  },
+  "Rogers RO4730G3": {
+    "color": "#6309b0",
+    "epsilon": 2.98,
+    "mu": 1
+  },
+  "Rogers RO4730JXR": {
+    "color": "#745e3f",
+    "epsilon": 2.98,
+    "mu": 1
+  },
+  "Rogers RO4830": {
+    "color": "#b8406b",
+    "epsilon": 3.2,
+    "mu": 1
+  },
+  "Rogers RO4835": {
+    "color": "#af99a5",
+    "epsilon": 3.66,
+    "mu": 1
+  },
+  "Rogers RO4835 LoPro": {
+    "color": "#2395c4",
+    "epsilon": 3.55,
+    "mu": 1
+  },
+  "Rogers RT5870": {
+    "color": "#47a775",
+    "epsilon": 2.33,
+    "mu": 1
+  },
+  "Rogers RT5880": {
+    "color": "#9bd140",
+    "epsilon": 2.2,
+    "mu": 1
+  },
+  "Rogers RT5880LZ": {
+    "color": "#c224d9",
+    "epsilon": 2,
+    "mu": 1
+  },
+  "Rogers RT6002": {
+    "color": "#d4d9b2",
+    "epsilon": 2.94,
+    "mu": 1
+  },
+  "Rogers RT6006": {
+    "color": "#7eb1cd",
+    "epsilon": 6.45,
+    "mu": 1
+  },
+  "Rogers RT6010LM": {
+    "color": "#0dae6b",
+    "epsilon": 10.7,
+    "mu": 1
+  },
+  "Rogers RT6035HTC": {
+    "color": "#9f2538",
+    "epsilon": 3.6,
+    "mu": 1
+  },
+  "Rogers RT6202": {
+    "color": "#34ec5d",
+    "epsilon": 2.94,
+    "mu": 1
+  },
+  "Rogers RT6202PR": {
+    "color": "#d57ea4",
+    "epsilon": 2.98,
+    "mu": 1
+  },
+  "Rogers TC350": {
+    "color": "#be2f69",
+    "epsilon": 3.6,
+    "mu": 1
+  },
+  "Rogers TC600": {
+    "color": "#0ee069",
+    "epsilon": 6.15,
+    "mu": 1
+  },
+  "Rogers TMM 10": {
+    "color": "#394df2",
+    "epsilon": 9.8,
+    "mu": 1
+  },
+  "Rogers TMM 10i": {
+    "color": "#f7c803",
+    "epsilon": 9.9,
+    "mu": 1
+  },
+  "Rogers TMM 13i": {
+    "color": "#8108cc",
+    "epsilon": 12.2,
+    "mu": 1
+  },
+  "Rogers TMM 3": {
+    "color": "#e38b96",
+    "epsilon": 3.45,
+    "mu": 1
+  },
+  "Rogers TMM 4": {
+    "color": "#21289a",
+    "epsilon": 4.7,
+    "mu": 1
+  },
+  "Rogers TMM 6": {
+    "color": "#3752d9",
+    "epsilon": 6.3,
+    "mu": 1
+  },
+  "Rogers XT8000": {
+    "color": "#9463dc",
+    "epsilon": 3.3,
+    "mu": 1
+  },
+  "Rogers XT8100": {
+    "color": "#89eb45",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Rubber": {
+    "color": "#33cce4",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Sandy Soil (dry)": {
+    "color": "#9bfd6f",
+    "epsilon": 2.53,
+    "mu": 1
+  },
+  "Sandy Soil (wet)": {
+    "color": "#faf1e9",
+    "epsilon": 13,
+    "mu": 1
+  },
+  "Silicon": {
+    "color": "#4f160b",
+    "epsilon": 11.9,
+    "mu": 1
+  },
+  "Silver": {
+    "color": "#fc022c",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 63012000
+  },
+  "ST37": {
+    "color": "#0b1308",
+    "epsilon": 1,
+    "mu": 1
+  },
+  "Steel-1008": {
+    "color": "#974963",
+    "epsilon": 1,
+    "mu": 1000,
+    "kappa": 7690000
+  },
+  "Steel-1010": {
+    "color": "#deac5a",
+    "epsilon": 1,
+    "mu": 1000,
+    "kappa": 6993000
+  },
+  "Sulfur Hexafluoride (SF6)": {
+    "color": "#dd4e4a",
+    "epsilon": 1.00203,
+    "mu": 1
+  },
+  "Taconic CER-10": {
+    "color": "#465ebc",
+    "epsilon": 10,
+    "mu": 1
+  },
+  "Taconic EZ-IO": {
+    "color": "#dfc76e",
+    "epsilon": 2.8,
+    "mu": 1
+  },
+  "Taconic HT-1.5": {
+    "color": "#61c172",
+    "epsilon": 2.35,
+    "mu": 1
+  },
+  "Taconic NF-30": {
+    "color": "#5b1579",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Taconic RF-10": {
+    "color": "#29bde1",
+    "epsilon": 10.2,
+    "mu": 1
+  },
+  "Taconic RF-30": {
+    "color": "#def8f6",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Taconic RF-30A": {
+    "color": "#a81115",
+    "epsilon": 2.97,
+    "mu": 1
+  },
+  "Taconic RF-35": {
+    "color": "#b09042",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Taconic RF-35A2": {
+    "color": "#d7c7e6",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Taconic RF-35TC": {
+    "color": "#a32aae",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Taconic RF-35TCA": {
+    "color": "#a8016b",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Taconic RF-41": {
+    "color": "#26b668",
+    "epsilon": 4.1,
+    "mu": 1
+  },
+  "Taconic RF-43": {
+    "color": "#99c8fb",
+    "epsilon": 4.3,
+    "mu": 1
+  },
+  "Taconic RF-45": {
+    "color": "#71920e",
+    "epsilon": 4.5,
+    "mu": 1
+  },
+  "Taconic RF-60A": {
+    "color": "#fe1dfe",
+    "epsilon": 6.15,
+    "mu": 1
+  },
+  "Taconic RF-60TC": {
+    "color": "#e32273",
+    "epsilon": 6.15,
+    "mu": 1
+  },
+  "Taconic TLA-6": {
+    "color": "#4d6e2d",
+    "epsilon": 2.62,
+    "mu": 1
+  },
+  "Taconic TLC-27": {
+    "color": "#c157f7",
+    "epsilon": 2.75,
+    "mu": 1
+  },
+  "Taconic TLC-30": {
+    "color": "#48bad3",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Taconic TLC-32": {
+    "color": "#969ee8",
+    "epsilon": 3.2,
+    "mu": 1
+  },
+  "Taconic TLE-95": {
+    "color": "#870335",
+    "epsilon": 2.95,
+    "mu": 1
+  },
+  "Taconic TLF-35A": {
+    "color": "#d7690d",
+    "epsilon": 3.5,
+    "mu": 1
+  },
+  "Taconic TLP-5": {
+    "color": "#13c83b",
+    "epsilon": 2.2,
+    "mu": 1
+  },
+  "Taconic TLT-0": {
+    "color": "#797729",
+    "epsilon": 2.45,
+    "mu": 1
+  },
+  "Taconic TLT-6": {
+    "color": "#a7bf95",
+    "epsilon": 2.65,
+    "mu": 1
+  },
+  "Taconic TLT-7": {
+    "color": "#40ab04",
+    "epsilon": 2.6,
+    "mu": 1
+  },
+  "Taconic TLT-8": {
+    "color": "#c45246",
+    "epsilon": 2.55,
+    "mu": 1
+  },
+  "Taconic TLT-9": {
+    "color": "#f6747c",
+    "epsilon": 2.5,
+    "mu": 1
+  },
+  "Taconic TLX-0": {
+    "color": "#b4f30b",
+    "epsilon": 2.45,
+    "mu": 1
+  },
+  "Taconic TLX-6": {
+    "color": "#fe9075",
+    "epsilon": 2.65,
+    "mu": 1
+  },
+  "Taconic TLX-7": {
+    "color": "#ffa284",
+    "epsilon": 2.6,
+    "mu": 1
+  },
+  "Taconic TLX-8": {
+    "color": "#c6a9c1",
+    "epsilon": 2.55,
+    "mu": 1
+  },
+  "Taconic TLX-9": {
+    "color": "#61a7ae",
+    "epsilon": 2.5,
+    "mu": 1
+  },
+  "Taconic TLY-3": {
+    "color": "#78b590",
+    "epsilon": 2.33,
+    "mu": 1
+  },
+  "Taconic TLY-5": {
+    "color": "#b14b0f",
+    "epsilon": 2.2,
+    "mu": 1
+  },
+  "Taconic TLY-5A": {
+    "color": "#107107",
+    "epsilon": 2.17,
+    "mu": 1
+  },
+  "Taconic TLY-5Z": {
+    "color": "#a21bd4",
+    "epsilon": 2.2,
+    "mu": 1
+  },
+  "Taconic TRF-41": {
+    "color": "#6ed4b9",
+    "epsilon": 4.1,
+    "mu": 1
+  },
+  "Taconic TRF-43": {
+    "color": "#5adc0d",
+    "epsilon": 4.3,
+    "mu": 1
+  },
+  "Taconic TRF-45": {
+    "color": "#8e13dc",
+    "epsilon": 4.5,
+    "mu": 1
+  },
+  "Taconic TSM-DS3": {
+    "color": "#50442a",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Taconic TSM-DS3b": {
+    "color": "#757055",
+    "epsilon": 3,
+    "mu": 1
+  },
+  "Taconic TSM-DS3M": {
+    "color": "#2d3e41",
+    "epsilon": 2.94,
+    "mu": 1
+  },
+  "Tantalum": {
+    "color": "#8ac01f",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 7633600
+  },
+  "Tin": {
+    "color": "#2b94e7",
+    "epsilon": 1,
+    "mu": 1,
+    "kappa": 8695700
+  },
+  "Tungsten": {
+    "color": "#b5ca8f",
+    "mu": 1,
+    "kappa": 18900000
+  },
+  "Water (distilled)": {
+    "color": "#81ec3c",
+    "epsilon": 78.4,
+    "mu": 1,
+    "kappa": 0.00000555
+  },
+  "Water (sea)": {
+    "color": "#bf1081",
+    "epsilon": 74,
+    "mu": 1,
+    "kappa": 3.53
+  },
+  "Water": {
+    "color": "#896ac8",
+    "epsilon": 78,
+    "mu": 1,
+    "kappa": 1.59
+  },
+  "Zinc": {
+    "color": "#63a7b5",
+    "mu": 1,
+    "kappa": 16900000
+  }
+}

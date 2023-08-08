@@ -1,0 +1,21 @@
+#context-menu {
+  display: none;
+  position: absolute;
+  width: 80px;
+  background-color: white;
+  box-shadow: 0 0 5px grey;
+  border-radius: 3px;
+  z-index: 10;
+}
+
+#context-menu button {
+  width: 100%;
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 5px;
+}
+
+#context-menu button:hover {
+  background-color: lightgray;
+}

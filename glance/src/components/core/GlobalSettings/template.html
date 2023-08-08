@@ -1,0 +1,58 @@
+<v-container :class="$style.container">
+  <v-card flat :class="$style.card" v-if="isAnimated">
+    <div :class="$style.heading">
+      <span class="subtitle-2">Animate phase</span>
+    </div>
+    <v-divider class="mb-4" />
+    <animationControls />
+  </v-card>
+  <v-card flat :class="$style.card">
+    <div :class="$style.heading">
+      <span class="subtitle-2">Background color</span>
+    </div>
+    <v-divider class="mb-4" />
+    <palette-picker
+      :palette="palette"
+      :size="24"
+      v-model="backgroundColorModel"
+    />
+  </v-card>
+  <v-card flat :class="$style.card">
+    <div :class="$style.heading">
+      <v-container grid-list-xs class="pa-0">
+        <v-layout row align-center>
+          <v-flex xs10>
+            <span class="subtitle-2">Orientation axes</span>
+          </v-flex>
+          <v-flex xs2>
+            <v-switch
+              v-model="orientationAxisModel"
+              :class="$style.slimInput"
+              hide-details
+            />
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </div>
+    <v-divider :class="$style.divider" />
+    <v-container grid-list-xs class="pa-0">
+      <v-layout row align-center class="pt-1">
+        <v-flex xs3>
+          <span class="body-2">Type</span>
+        </v-flex>
+        <v-flex xs9>
+          <v-select
+            class="pv-no-select"
+            :class="$style.slimInput"
+            dense
+            flat
+            hide-details
+            :disabled="!orientationAxis"
+            v-model="axisTypeModel"
+            :items="axisTypes"
+          />
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-card>
+</v-container>
